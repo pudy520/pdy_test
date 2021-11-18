@@ -1,0 +1,19 @@
+{
+    "name": "vvv/test",
+    "description": "this is my test",
+    "type": "1",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Vvv\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pudongyang",
+            "email": "294963672@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
