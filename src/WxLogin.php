@@ -18,12 +18,12 @@ class WxLogin
     public $appid;
     public $secret;
 
-    public function __construct()
+    public function __construct($appid, $secret)
     {
         $this->config = [
             'url' => "https://api.weixin.qq.com/sns/jscode2session", //微信获取session_key接口url
-            'appid' => $this->appid, // APPId
-            'secret' => $this->secret, // 秘钥
+            'appid' => $appid, // APPId
+            'secret' => $secret, // 秘钥
             'grant_type' => 'authorization_code', // grant_type
         ];
     }
