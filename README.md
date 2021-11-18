@@ -11,9 +11,10 @@
 ```Shell
 $ composer require vvv/test
 ```
-
+##使用
 ```
-
+  $wechat = new  WxLogin($appid, $secret);
+  return   $wechat->wxLogin($code, $encryptedData, $iv);
 ```
 
 ## License
