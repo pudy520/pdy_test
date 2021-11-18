@@ -5,7 +5,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Vvv\\Test\\": "src/Order"
+            "Vvv\\Test\\": "src"
         }
     },
     "authors": [

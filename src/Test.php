@@ -1,6 +1,6 @@
 <?php
 
-namespace Vvv\Test\Order;
+namespace Vvv\Test;
 
 class Test
 {
