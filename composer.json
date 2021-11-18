@@ -1,11 +1,11 @@
 {
     "name": "vvv/test",
-    "description": "this is my test",
+    "description": "this is my order_sn",
     "type": "1",
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Vvv\\Test\\": "src/"
+            "Vvv\\Test\\": "src/Order"
         }
     },
     "authors": [

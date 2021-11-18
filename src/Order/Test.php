@@ -1,5 +1,7 @@
 <?php
 
+namespace Order;
+
 class Test
 {
 
