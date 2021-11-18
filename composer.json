@@ -1,6 +1,6 @@
 {
     "name": "vvv/test",
-    "description": "this is my order_sn",
+    "description": "this is my wechatLogin",
     "type": "1",
     "license": "mit",
     "autoload": {
